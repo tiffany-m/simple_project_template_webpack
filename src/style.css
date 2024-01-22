@@ -1,0 +1,25 @@
+/* TEST CSS -------------------------------------------- */
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/myFont.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+.function-test {
+  background-color: green;
+}
+.font-test {
+  font-size: 3rem;
+  font-family: "MyFont";
+}
+.test-HTML-text {
+  font-size: 3rem;
+  color: red;
+  font-weight: bold;
+}
+.test-JS-text {
+  font-size: 2rem;
+  color: blue;
+  font-weight: bold;
+}
+/* ------------------------------------------------------- */
